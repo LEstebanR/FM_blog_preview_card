@@ -1,7 +1,13 @@
+import Card from "./components/card";
+
+const CARD_DATA = {
+  image: "/public/assets/images/illustration-article.svg",
+};
+
 function App() {
   return (
-    <div className="flex w-screen h-screen items-center justify-center">
-      <p>Work in progress....</p>
+    <div className="flex w-screen h-screen items-center justify-center bg-primary">
+      <Card cardData={CARD_DATA} />
     </div>
   );
 }
