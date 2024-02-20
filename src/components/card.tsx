@@ -5,6 +5,12 @@ type props = {
   cardData: {
     image: string;
     published: string;
+    title: string;
+    description: string;
+    author: {
+      avatar: string;
+      name: string;
+    }
   };
 };
 
@@ -15,9 +21,12 @@ const Card: React.FC<props> = ({ cardData }) => {
       <div className="flex flex-col items-start h-3/6 w-full justify-around">
         <Button label="Learning" />
         <p>Published {cardData.published}</p>
-        <p>Title</p>
-        <p>Description</p>
-        <p>Sign</p>
+        <p>{cardData.title}</p>
+        <p>{cardData.description}</p>
+        <span className="flex gap-2">
+          <img className="rounded-full h-8" src={cardData.author.avatar} />
+          <p>{cardData.author.name}</p>
+        </span>
       </div>
     </div>
   );
