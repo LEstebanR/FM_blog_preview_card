@@ -14,7 +14,7 @@ const CARD_DATA = {
 
 function App() {
   return (
-    <div className="flex h-screen w-screen items-center justify-center bg-primary">
+    <div className="flex h-screen w-screen items-center justify-center bg-primary font-card">
       <Card cardData={CARD_DATA} />
     </div>
   );

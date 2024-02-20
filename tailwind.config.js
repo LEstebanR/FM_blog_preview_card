@@ -13,6 +13,9 @@ export default {
       spacing: {
         100: "33rem",
       },
+      fontFamily: {
+        card: ["Figtree", "sans-serif"],
+      },
     },
   },
   plugins: [],

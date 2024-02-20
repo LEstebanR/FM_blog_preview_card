@@ -6,7 +6,9 @@ type props = {
 
 const Button: React.FC<props> = ({ label }) => {
   return (
-    <button className="bg-primary p-2 rounded-md font-bold">{label}</button>
+    <button className="rounded-md bg-primary px-2 py-1 font-bold">
+      {label}
+    </button>
   );
 };
 
