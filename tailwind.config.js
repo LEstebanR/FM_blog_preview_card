@@ -7,8 +7,11 @@ export default {
         primary: "hsl(47, 88%, 63%)",
       },
       boxShadow: {
-        "hover": "15px 15px 0 5px rgba(0, 0, 0)",
-        "card": "15px 15px 0 1px rgba(0, 0, 0)",
+        hover: "10px 10px 0 1px rgba(0, 0, 0)",
+        card: "8px 8px 0 1px rgba(0, 0, 0)",
+      },
+      spacing: {
+        100: "33rem",
       },
     },
   },
