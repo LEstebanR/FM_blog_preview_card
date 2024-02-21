@@ -32,14 +32,14 @@ const Card: React.FC<props> = ({ cardData }) => {
       <div className="flex h-3/6 w-full flex-col items-start justify-around">
         <Button label="Learning" />
         <p className="text-sm">Published {cardData.published}</p>
-        <p
+        <h1
           className={clsx(
             "text-xl font-extrabold uppercase hover:cursor-pointer",
             hover && "text-primary"
           )}
         >
           {cardData.title}
-        </p>
+        </h1>
         <p className="text-base text-gray">{cardData.description}</p>
         <div className="flex items-center gap-2">
           <img
