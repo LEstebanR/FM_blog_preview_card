@@ -8,7 +8,7 @@ const CARD_DATA = {
     "These languages are backbone for every website, defining structure, content and presentation",
   author: {
     avatar: "/assets/images/image-avatar.webp",
-    name: "Michelle Appleton",
+    name: "Greg Hooper",
   },
 };
 

@@ -42,7 +42,11 @@ const Card: React.FC<props> = ({ cardData }) => {
         </p>
         <p className="text-base text-gray">{cardData.description}</p>
         <span className="flex items-center gap-2">
-          <img className="h-8 rounded-full" src={cardData.author.avatar} />
+          <img
+            className="h-8 rounded-full"
+            src={cardData.author.avatar}
+            alt="author avatar"
+          />
           <p className="text-sm font-bold">{cardData.author.name}</p>
         </span>
       </div>
