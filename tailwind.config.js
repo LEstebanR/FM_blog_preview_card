@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         primary: "hsl(47, 88%, 63%)",
+        gray: "hsl(0, 0%, 50%)",
       },
       boxShadow: {
         hover: "10px 10px 0 1px rgba(0, 0, 0)",
